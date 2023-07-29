@@ -7,7 +7,7 @@ const Greetings = () => {
   return (
     <View>
       <TextInput
-        placeholder="Enter your name..."
+        placeholder="Enter your name...."
         onChangeText={(text) => setName(text)}
       />
       <Text>Welcome, {name}!</Text>
